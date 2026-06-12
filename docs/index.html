@@ -16,5 +16,5 @@ all.innerHTML=cards(items); results.innerHTML=cards(items.filter(x=>x[1]=='Books
 function show(id){document.querySelectorAll('body>section').forEach(x=>x.classList.add('hidden'));document.getElementById(id).classList.remove('hidden');history.replaceState(null,'','#'+id)}
 function renderSearch(){results.innerHTML=cards(items.filter(x=>x.join(' ').toLowerCase().includes(query.value.toLowerCase())))}
 function login(){userBtn.textContent='Vhutali Sheltten';loginBtn.textContent='Log out';show('home')}
-const initial=location.hash.slice(1);if(initial)show(initial);if(initial==='loggedin')login();
+const initial=location.hash.slice(1);if(initial==='loggedin')login();else if(initial)show(initial);
 </script></body></html>
