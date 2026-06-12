@@ -1,23 +1,23 @@
 # GiftLink Final Project Submission Answers
 
-Publish this folder to a **public** GitHub repository named
-`fullstack-capstone-project`, then replace `YOUR_GITHUB_USERNAME` below once.
+Publish this folder to your **public** GitHub repository named
+`fullstack-capstone-project`.
 
 Base URL:
 
-`https://github.com/YOUR_GITHUB_USERNAME/fullstack-capstone-project`
+`https://github.com/vhutalisheltten/fullstack-capstone-project`
 
-1. **Task 1:** `https://github.com/YOUR_GITHUB_USERNAME/fullstack-capstone-project/blob/main/user-story.md`
+1. **Task 1:** `https://github.com/vhutalisheltten/fullstack-capstone-project/blob/main/user-story.md`
 2. **Task 2:** Upload `evidence/userstories.png`.
 3. **Task 3:** Copy the contents of `evidence/inserted_items`.
-4. **Task 4:** `https://github.com/YOUR_GITHUB_USERNAME/fullstack-capstone-project/blob/main/server/db.js`
-5. **Task 5:** `https://github.com/YOUR_GITHUB_USERNAME/fullstack-capstone-project/blob/main/server/giftRoutes.js`
-6. **Task 6:** `https://github.com/YOUR_GITHUB_USERNAME/fullstack-capstone-project/blob/main/server/searchRoutes.js`
-7. **Task 7:** `https://github.com/YOUR_GITHUB_USERNAME/fullstack-capstone-project/blob/main/server/app.js`
-8. **Task 8:** `https://github.com/YOUR_GITHUB_USERNAME/fullstack-capstone-project/blob/main/server/index.js`
-9. **Task 9:** `https://github.com/YOUR_GITHUB_USERNAME/fullstack-capstone-project/blob/main/client/src/RegisterPage.jsx`
-10. **Task 10:** `https://github.com/YOUR_GITHUB_USERNAME/fullstack-capstone-project/blob/main/client/src/LoginPage.jsx`
-11. **Task 11:** `https://github.com/YOUR_GITHUB_USERNAME/fullstack-capstone-project/blob/main/server/authRoutes.js`
+4. **Task 4:** `https://github.com/vhutalisheltten/fullstack-capstone-project/blob/main/server/db.js`
+5. **Task 5:** `https://github.com/vhutalisheltten/fullstack-capstone-project/blob/main/server/giftRoutes.js`
+6. **Task 6:** `https://github.com/vhutalisheltten/fullstack-capstone-project/blob/main/server/searchRoutes.js`
+7. **Task 7:** `https://github.com/vhutalisheltten/fullstack-capstone-project/blob/main/server/app.js`
+8. **Task 8:** `https://github.com/vhutalisheltten/fullstack-capstone-project/blob/main/server/index.js`
+9. **Task 9:** `https://github.com/vhutalisheltten/fullstack-capstone-project/blob/main/client/src/RegisterPage.jsx`
+10. **Task 10:** `https://github.com/vhutalisheltten/fullstack-capstone-project/blob/main/client/src/LoginPage.jsx`
+11. **Task 11:** `https://github.com/vhutalisheltten/fullstack-capstone-project/blob/main/server/authRoutes.js`
 12. **Task 12:** Upload `evidence/deployed_landingpage.png`.
 13. **Task 13:** Copy the contents of `evidence/mainpage`.
 14. **Task 14:** Copy the contents of `evidence/register`.
