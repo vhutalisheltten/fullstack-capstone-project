@@ -1,0 +1,5 @@
+Command:
+curl http://localhost:3060/api/gifts
+
+Expected output:
+An HTTP 200 JSON array containing all 16 GiftLink items.

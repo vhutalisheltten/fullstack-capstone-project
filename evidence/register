@@ -1,0 +1,5 @@
+Command:
+curl -X POST http://localhost:3060/api/auth/register -H "Content-Type: application/json" -d "{\"name\":\"Gift User\",\"email\":\"gift@example.com\",\"password\":\"Password123!\"}"
+
+Output:
+{"message":"Registration successful","email":"gift@example.com"}

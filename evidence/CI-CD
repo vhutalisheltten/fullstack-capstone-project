@@ -1,0 +1,10 @@
+GitHub Actions workflow: .github/workflows/ci.yml
+
+Expected successful steps:
+1. Checkout repository
+2. Set up Node.js 22
+3. Install server dependencies
+4. Run API tests
+5. Install client dependencies
+6. Build React client
+7. Build Docker image

@@ -1,0 +1,5 @@
+Command:
+curl http://localhost:3060/api/gifts/1
+
+Output:
+{"id":"1","name":"Wooden Dining Table","category":"Furniture","description":"A sturdy six-seat table with light wear.","location":"Cape Town","available":true,"comments":[]}

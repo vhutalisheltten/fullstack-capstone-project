@@ -1,0 +1,5 @@
+Command:
+curl "http://localhost:3060/api/search?category=Books"
+
+Expected output:
+HTTP 200 JSON containing Children's Story Books and Coding Textbooks.

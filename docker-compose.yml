@@ -1,0 +1,15 @@
+services:
+  mongo:
+    image: mongo:8
+    ports: ["27017:27017"]
+    volumes: [giftlink-data:/data/db]
+  api:
+    build: .
+    environment:
+      MONGO_URL: mongodb://mongo:27017
+      DB_NAME: giftlink
+      JWT_SECRET: docker-development-secret
+    ports: ["3060:3060"]
+    depends_on: [mongo]
+volumes:
+  giftlink-data:

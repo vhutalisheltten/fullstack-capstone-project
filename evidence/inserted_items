@@ -1,0 +1,5 @@
+Command:
+node server/insertItems.js
+
+Output:
+inserted_items: 16 documents imported into MongoDB

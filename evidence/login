@@ -1,0 +1,5 @@
+Command:
+curl -X POST http://localhost:3060/api/auth/login -H "Content-Type: application/json" -d "{\"email\":\"gift@example.com\",\"password\":\"Password123!\"}"
+
+Expected output:
+HTTP 200 JSON containing a JWT token and the registered user's public profile.
