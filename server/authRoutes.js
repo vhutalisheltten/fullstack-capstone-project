@@ -6,6 +6,15 @@ const router = Router();
 const users = new Map();
 const secret = () => process.env.JWT_SECRET || "giftlink-development-secret";
 
+async function findCurrentUser(email) {
+  const database = await import("./db.js").then(({ connectToDatabase }) => connectToDatabase());
+  if (database) {
+    const collection = database.collection("users");
+    return collection.findOne({ email });
+  }
+  return users.get(email);
+}
+
 function authenticate(req, res, next) {
   const token = req.headers.authorization?.replace(/^Bearer /, "");
   if (!token) return res.status(401).json({ message: "Authorization token required" });
@@ -26,7 +35,7 @@ router.post("/register", async (req, res) => {
 });
 
 router.post("/login", async (req, res) => {
-  const user = users.get(req.body.email);
+  const user = await findCurrentUser(req.body.email);
   if (!user || !(await bcrypt.compare(req.body.password || "", user.password))) {
     return res.status(401).json({ message: "Invalid credentials" });
   }

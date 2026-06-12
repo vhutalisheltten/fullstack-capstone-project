@@ -11,6 +11,7 @@ const clientDist = path.resolve(path.dirname(fileURLToPath(import.meta.url)), ".
 app.use(cors());
 app.use(express.json());
 app.get("/api/health", (_req, res) => res.json({ status: "ok" }));
+app.use("/api/gifts/search", searchRoutes);
 app.use("/api/gifts", giftRoutes);
 app.use("/api/search", searchRoutes);
 app.use("/api/auth", authRoutes);
